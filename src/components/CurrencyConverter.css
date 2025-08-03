@@ -1,0 +1,111 @@
+.title{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(47, 44, 44);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.container{
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(146, 176, 203);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/*0 → horizontal offset
+
+4px → vertical offset
+
+6px → blur radius
+
+rgba(0, 0, 0, 0.1) → color (10% opacity black)
+
+*/
+.amt{
+    display: block;
+    font-size: small;
+    font-weight: 100;
+    color: rgb(52, 50, 50);
+}
+.inp{
+    padding: 2px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+.inp:focus{
+    border-color: rgb(14, 14, 37);
+    box-shadow: 0 0 0 3px rgba(238, 50, 106, 0.2);
+}
+.inp:hover{
+    border-color: rgb(222, 122, 45);
+}
+.conbtn{
+    display: flex;
+    justify-content: end;
+    margin-top: 6px;
+}
+.subbtn{
+    padding: 3px 20px;
+  border: 2px solid #111318;
+  border-radius: 8px;
+  background-color: #4573d7;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+    outline: none;
+}
+.subbtn:hover{
+    cursor: pointer;
+  background-color: #1d4ed8;
+}
+.subbtn:focus{
+   border-width: 3px;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+  background-color: #1d4ed8;
+    
+}
+.new{
+    margin-top: 4px;
+    font-size: large;
+    font-weight: 200;
+    justify-content: right;
+    color: green;
+}
+
+.frombar{
+    width: 100%;
+    padding: 3px;
+    border: grey;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+}
+.frombar:focus{
+    cursor: pointer;
+}
+.labeldata{
+    display: block;
+    font-size: small;
+    color: rgb(32, 62, 63);
+}
+.change{
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 2px;
+    position: relative;
+}
+.favbtn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-size: small;
+  top: 3px;
+  right: 0px;
+}
